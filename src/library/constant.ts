@@ -1,0 +1,3 @@
+export const DECK_MIN_CARD_AMOUNT = 40;
+export const DECK_MAX_DUPLICATE_CARD_AMOUNT = 3;
+export const DECK_MAX_CARD_AMOUNT = 60;

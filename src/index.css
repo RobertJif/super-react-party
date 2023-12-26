@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "yugioh";
+  src: url("font/yugioh.ttf");
+}
+
+:root {
+  --card-base-width: 813px;
+  --card-base-height: 1185px;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-700;
+  }
+  p {
+    @apply font-yugioh leading-5;
+  }
+}
+
+@layer components {
+  .card-container {
+    @apply;
+  }
+  .card-label-container {
+    @apply h-4 w-full;
+  }
+  .card-star-container {
+  }
+  .card-image-container {
+  }
+  .card-detail-container {
+  }
+  .card-detail-container.card-description {
+  }
+  .card-detail-container.card-power {
+  }
+  .card-copyright {
+  }
+}
