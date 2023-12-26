@@ -23,10 +23,12 @@ declare global {
     | "wind";
   type CardSpellAttributeType = "spell";
   type CardTrapAttributeType = "trap";
+
   type CardAttributeType =
     | CardMonsterAttributeType
     | CardSpellAttributeType
     | CardTrapAttributeType;
+
   type CardMonsterRaceType =
     | "aqua"
     | "beast"

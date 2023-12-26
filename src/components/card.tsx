@@ -78,7 +78,7 @@ function Attribute({ attribute }: Pick<ICardDetail, "attribute">) {
   return (
     <div className="flex items-center w-[68px] mr-4">
       <img
-        src={`card/attribute/${attribute}.png`}
+        src={`card/attribute/${attribute.toLowerCase()}.png`}
         width={68}
         height={68}
         alt={`card-attribute-${attribute}`}
